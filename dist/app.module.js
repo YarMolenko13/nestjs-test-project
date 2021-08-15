@@ -40,7 +40,7 @@ AppModule = __decorate([
                 autoLoadModels: true
             }),
             config_1.ConfigModule.forRoot({
-                envFilePath: `.${process.env.NODE_ENV}.env`
+                envFilePath: `.env`
             }),
             users_module_1.UsersModule,
             roles_module_1.RolesModule,

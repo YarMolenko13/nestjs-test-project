@@ -30,7 +30,7 @@ import * as path from 'path'
         }),
         ConfigModule.forRoot({
             // envFilePath: `.${process.env.NODE_ENV}.env`
-            envFilePath: `.production.env`
+            envFilePath: `.env`
         }),
         // SequelizeModule.forRoot({
         //     dialect: 'postgres',
