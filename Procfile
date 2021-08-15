@@ -1,1 +1,1 @@
-web: cross-env NODE_ENV=production nest start
+web: npm run start:prod

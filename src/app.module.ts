@@ -29,7 +29,8 @@ import * as path from 'path'
             autoLoadModels: true
         }),
         ConfigModule.forRoot({
-            envFilePath: `.${process.env.NODE_ENV}.env`
+            // envFilePath: `.${process.env.NODE_ENV}.env`
+            envFilePath: `.production.env`
         }),
         // SequelizeModule.forRoot({
         //     dialect: 'postgres',
